@@ -87,7 +87,7 @@
 
 `mutation DeleteQuery($id: ID!) {
   deleteJobListing(id:$id){
-    deletedJobId
+    deleteJobId
   }
 }`
 
