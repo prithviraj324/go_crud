@@ -2,7 +2,8 @@
 
 #### Get All Jobs
 
-`query GetAllJobs{
+`
+query GetAllJobs{
   jobs{
     _id
     title
@@ -10,7 +11,8 @@
     company
     url
   }
-}`
+}
+`
 
 =======================
 
